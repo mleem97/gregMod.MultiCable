@@ -1,0 +1,23 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# Release artifacts
+[Rr]eleases/
+
+# IDE
+.vs/
+*.user
+*.suo
+*.csproj.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+
+# Game assemblies (live symlinks into the Data Center install,
+# see ModRepositories/tools/sync-melon-assemblies.sh — never commit DLLs)
+references/*.dll
